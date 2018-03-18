@@ -1,0 +1,27 @@
+img {
+   	margin: 70px;
+	padding: 70px;
+    border: 1px solid #4CAF50;
+}
+p{
+	font-family: Verdana, "Times New Roman", Times, serif;
+}
+
+header{
+	font-family: Verdana;
+	background-color: Black;
+	color: white;
+	}
+
+.borderparagraph{
+	border: 1px solid #4CAF50;
+}
+
+
+#indianstate {
+    background-color: yellow;
+}
+
+#usstate {
+    background-color: lightblue;
+}
