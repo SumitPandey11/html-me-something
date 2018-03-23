@@ -1,41 +1,145 @@
+<!DOCTYPE html>
 <html>
+
 <head>
-	<title>My Profile</title>
-	<link type="text/css" rel="stylesheet" href="styles.css">
-</head>	
+  <title> First Website</title>
+
+  <meta name="author" content="Sumit Pandey" />
+  <meta name="description" content="Sumit Pandey Profile" />
+
+  <link type="text/css" rel="stylesheet" href="styles.css">
+</head>
+
 <body>
 
-<header>This is my Profile Page</header>
+  <div id="page">
+    <div id="logo">
+      <h1>My First Website</h1>
+    </div>
 
-<main>
-  <h1>Hi I am Sumit Pandey</h1>
-  <p><img src="images\emoticons.jpg"></p>
-  <p>Working for software company.</p>
-  <article>
-    <h1>My Interest</h1>
-    <p>Coding</p>
-  </article>
+    <div id="myDiv">
+      <ul>
+        <li>
+          <a href="#me">About Me</a>
+        </li>
+        <li>
+          <a href="#education">Education</a>
+        </li>
+        <li>
+          <a href="#lived">Please I lived</a>
+        </li>
+      </ul>
+    </div>
 
-  <article>
-    <h1>Education</h1>
-    <p>Masters in computer science</p>
-  </article>
-</main>
-
-			<h1>Places I've lived</h1>
-			<nav>
-				<ul>
-					<li ><a href="https://en.wikipedia.org/wiki/St._Louis">St. Louis</a><p class="borderparagraph" id="usstate">I am staying in St. Louis, Mo since 2013 at Maryland heights. Working for a software company.</p></li>
-					<li ><a href="https://en.wikipedia.org/wiki/Ann_Arbor,_Michigan">Ann Arbor</a><p class="borderparagraph" id="usstate">I was in Annarbor from 2008 to 2011.</p></li>
-					<li ><a href="https://en.wikipedia.org/wiki/New_Delhi">New Delhi</a><p class="borderparagraph" id="indianstate">I did my college from Delhi University. and my first job in Delhi</p></li>
-				</ul>
+    <div id="content">
+      <h2>Home</h2>
+      <p>
+        This is my first webpage! I was able to code all the HTML and CSS in order to make it.
+      </p>
+      <p>
+        I can use my skills here to create websites for my business, my friends and family, my C.V, blog or articles. As well as
+        any games or more experiment stuff (which is what the web is really all about).
+      </p>
 
 
+      <p>Working for software company.</p>
 
-<footer>
-  <p>Posted by: Sumit Pandey</p>
-  <p>Contact information: <a href="mailto:myname@example.com">myname@example.com</a> &copy;.</p>
-</footer>
+      <h1>
+        <a name="me">About Me</a>
+      </h1>
+      <div class="floating-box-image">
+        <img src="images/emoticons.jpg" style="width:150px;height:75px;">
+      </div>
+
+      <div class="floating-box">
+
+        <ul>
+          <li>Working as Project manager</li>
+          <li>I would like to develop coding skill</li>
+          <li>I am blessed with two Kids</li>
+          <li>Like to listen hindi music </li>
+          <li>Cricket is my favourite sports</li>
+
+        </ul>
+      </div>
+
+
+      <div class="after-floating-box">
+        <h1>
+          <a name="education">Education</a>
+        </h1>
+      </div>
+
+
+
+      <div class="floating-box-image">
+        <img src="images/degree.jpg" style="width:150px;height:75px;">
+      </div>
+
+      <div class="floating-box">
+
+        <ul>
+          <li>Masters in Computer Science</li>
+          <li>Post Graduate Diploma in Computer Application</li>
+          <li>Bachelors Degree in Mathematics</li>
+          <li>PMP Certified professional </li>
+          <li>IBM Bluemix certification</li>
+          <li>ITIL Certification</li>
+
+        </ul>
+      </div>
+
+      <div class="after-floating-box">
+        <h1>
+          <a name="lived">Places I've lived</a>
+        </h1>
+      </div>
+
+
+      <div class="floating-box-image">
+        <img src="images/arch.jpg" style="width:150px;height:75px;">
+      </div>
+      <div class="floating-box">
+        <main>
+          <article>
+            <a href="https://en.wikipedia.org/wiki/St._Louis"> St. Louis, Missouri</a>
+            <p>St. Louis is a major city in Missouri. It is a county located in the far eastern portion of Missouri. It is bounded
+              by the City of St. Louis and the Mississippi River to the east, the Missouri River to the north, and the Meramec
+              River to the south. Its iconic, 630-ft. Gateway Arch, built in the 1960s, honors the early 19th-century explorations
+              of Lewis and Clark and America's westward expansion in general. Replica paddlewheelers ply the river, offering
+              views of the arch. The Soulard district is home to barbecue restaurants and clubs playing blues music. </p>
+          </article>
+          <article>
+            <a href="https://en.wikipedia.org/wiki/Ann_Arbor,_Michigan"> Ann Arbor, Michigan</a>
+            <p>Ann Arbor is a city west of Detroit, in the Midwestern state of Michigan. It’s home to the sprawling University
+              of Michigan, known for its research programs. The University of Michigan Museum of Art displays works from
+              around the globe and spanning centuries. Science-focused attractions in the city include the Museum of Natural
+              History and the Ann Arbor Hands-On Museum, with kid-friendly interactive exhibits. </p>
+          </article>
+          <article>
+            <a href="https://en.wikipedia.org/wiki/New_Delhi"> New Delhi, India</a>
+            <p>New Delhi is the capital of India and one of Delhi city's 11 districts. Although colloquially Delhi and New Delhi
+              are used interchangeably to refer to the National Capital Territory of Delhi, these are two distinct entities,
+              with New Delhi forming a small part of Delhi. The National Capital Region is a much larger entity comprising
+              the entire National Capital Territory of Delhi along with adjoining districts. It is surrounded by Haryana
+              on three sides and Uttar Pradesh on the east. </p>
+          </article>
+
+        </main>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div id="footer">
+    <p>
+      Webpage made by Sumit Pandey
+      <p>Contact information:
+        <a href="mailto:sumitsenpandey@gmail.com">Sumit Pandey</a> &copy;.</p>
+    </p>
+  </div>
 
 </body>
+
 </html>
